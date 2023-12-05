@@ -3,15 +3,17 @@ import "./index.css";
 import UserProfile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/NavBar"; 
 
 function App() {
   return (
     <div>
-    <NavBar />
-    <UserProfile />
-    <Posts />
-    <Contacts/>
+      <NavBar />
+      {/* <ul className="main-section"> */}
+        <UserProfile />
+        <Posts />
+      {/* </ul>  */}
+      <Contacts/>
     </div>
   );
 }

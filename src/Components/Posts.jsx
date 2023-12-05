@@ -1,15 +1,14 @@
 import Post from "./Post";
 
-
 function Posts() {
     return (
-        <div className="blue-border">
+        <div className="blue-border posts">
             <p>Posts</p>
-            <ul>
+            {/* <ul> */}
                 <Post/>
                 <Post/>
                 <Post/>
-            </ul>
+            {/* </ul> */}
         </div>
     )
 }
