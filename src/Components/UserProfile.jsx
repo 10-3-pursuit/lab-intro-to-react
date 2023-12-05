@@ -1,9 +1,9 @@
 function UserProfile() {
     return (
-        <div className="UserProfile">
+        <div className="UserProfile red-border">
             <img src="" alt="User Profile Pic" />
-            <h1>Jordan Walks</h1>
-            <h2>React Creator</h2>
+            <p>Jordan Walks</p>
+            <p>React Creator</p>
             <p>Lorem Ipsum</p>
         </div>
     )
