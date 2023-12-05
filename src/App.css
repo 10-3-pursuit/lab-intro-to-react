@@ -1,0 +1,10 @@
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 44rem;
+    border: 1px solid blue;
+}
+
+.profile-posts {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+.navbar {
+    text-align: right;
+    background-color: teal;
+}
+
+input {
+    display: inline-block;
+    width: 8rem;
+    margin: 10px 0px 10px 15px;
+}
