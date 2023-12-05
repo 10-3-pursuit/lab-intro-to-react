@@ -1,0 +1,10 @@
+.contacts {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid black;
+}

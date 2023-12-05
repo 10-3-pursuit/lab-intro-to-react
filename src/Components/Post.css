@@ -1,0 +1,10 @@
+.post {
+    margin-top: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+h3,
+p {
+    text-align: center;
+}

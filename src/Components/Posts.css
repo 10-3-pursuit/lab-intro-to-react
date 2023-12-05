@@ -1,0 +1,12 @@
+.posts {
+    border: 1px solid black;
+    margin: 40px 20px 20px 20px;
+}
+
+section {
+    width: 50rem;
+}
+
+h2 {
+    text-align: center;
+}
