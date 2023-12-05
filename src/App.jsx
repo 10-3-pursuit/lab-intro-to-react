@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.css";
+import UserProfile from "./Components/UserProfile";
 
 function App() {
   return (
     <div>
-    <p>Profile Here</p>
+    <UserProfile />
     <p>Posts Here</p>
     <p>Contacts Here</p>
     </div>
