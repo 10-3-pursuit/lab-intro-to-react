@@ -1,10 +1,10 @@
 function Post() {
     return (
         <div>
-            <img src="" alt="Post Profile Pic" />
-            <p>Jordan Walke</p>
-            <p>React Creator</p>
+            <p>Titl</p>
             <p>Lorem Ipsum</p>
         </div>
-    )
+    ) 
 }
+
+export default Post; 
