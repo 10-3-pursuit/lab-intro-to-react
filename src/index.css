@@ -9,3 +9,51 @@ body,
   height: 100%;
   width: 100%;
 }
+section {
+  display: grid;
+  width: 80%;
+  row-gap: 100px;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+.nav {
+  text-align: right;
+  background: rgb(68, 227, 227);
+  height: 50px;
+}
+
+.list {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.posts {
+  border: 2px solid black;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.post {
+  border: 2px solid black;
+  width: 80%;
+  margin-bottom: 10px;
+  
+}
+
+.userCard {
+  display: flex;
+}
+
+.User .userCard {
+  height: 200px;
+}
+
