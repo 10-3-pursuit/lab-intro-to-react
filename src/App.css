@@ -1,0 +1,67 @@
+
+li {
+    list-style: none;
+}
+
+main{
+    display:grid;
+    grid-template-rows: repeat(2 2fr);
+}
+
+img {
+    height: 125px;
+}
+
+.nav-bar {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.user-profile {
+    border: 2px solid black;
+    display: flex;
+    margin: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+.profile-content{
+    margin: 10px;
+}
+
+.posts{
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.post{
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.contacts {
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+.card{
+    border: 1px solid black;
+    margin: 30px;
+    display: flex;
+    height: 150px;
+}
+
+.card-content{
+    margin: 20px;
+}
+
+.contact-image {
+    height: 150px;
+}
