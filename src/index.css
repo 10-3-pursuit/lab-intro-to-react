@@ -9,3 +9,50 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.red-border {
+  border: red solid 5px;
+}
+
+.blue-border {
+  border: blue solid 5px;
+}
+
+.green-border {
+  border: green solid 5px;
+}
+
+.yellow-border {
+  border: yellow solid 1px;
+}
+
+.orange-border {
+  border: solid orange 5px; 
+}
+
+.nav-bar {
+  text-align: right;
+}
+
+.user-profile {
+  display: flex; 
+  /* margin-bottom: 75px; */
+}
+.posts {
+  text-align: center;
+}
+
+.post {
+  text-align: center;
+}
+
+.contacts {
+  /* text-align: center; */
+}
+/* .main-section {
+
+}
+
+.aside {
+
+} */
