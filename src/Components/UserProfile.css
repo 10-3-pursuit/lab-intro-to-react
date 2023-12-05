@@ -1,0 +1,11 @@
+.UserProfile {
+    display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    height: 30%;
+  }
+  .UserProfile img {
+ width:150px;
+ height: 160px;
+  }

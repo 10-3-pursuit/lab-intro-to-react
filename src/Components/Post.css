@@ -1,0 +1,9 @@
+
+.Post{
+    display: flex;
+    width: 80%;
+    border: 2px solid black;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}

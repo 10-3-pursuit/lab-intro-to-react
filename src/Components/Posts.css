@@ -1,0 +1,14 @@
+.Posts{
+    display: flex;
+
+    border: 2px solid black;
+    align-items: center;
+    margin-bottom: 200px;
+    margin: 10px;
+    flex-direction: column;
+    height: 600px;
+}
+
+.Posts h1{
+    margin: 5px;
+}
