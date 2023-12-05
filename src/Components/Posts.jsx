@@ -3,7 +3,7 @@ import Post from "./Post";
 
 function Posts() {
     return (
-        <div>
+        <div className="blue-border">
             <p>Posts</p>
             <ul>
                 <Post/>
@@ -13,3 +13,5 @@ function Posts() {
         </div>
     )
 }
+
+export default Posts; 

@@ -1,7 +1,7 @@
 function Post() {
     return (
         <div>
-            <p>Titl</p>
+            <p>Title</p>
             <p>Lorem Ipsum</p>
         </div>
     ) 

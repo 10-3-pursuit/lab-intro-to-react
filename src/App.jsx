@@ -1,13 +1,15 @@
 import React from "react";
 import "./index.css";
 import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 
 function App() {
   return (
     <div>
     <UserProfile />
-    <p>Posts Here</p>
-    <p>Contacts Here</p>
+    <Posts />
+    <Contacts/>
     </div>
   );
 }
