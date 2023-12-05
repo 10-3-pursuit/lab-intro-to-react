@@ -1,6 +1,6 @@
 function NavBar() {
     return (
-        <div>
+        <div className="orange-border">
             <nav>
             <button>What's Pursuit?</button>
             <button>Create an account</button>
@@ -10,4 +10,4 @@ function NavBar() {
     )
 }
 
-export default Navbar; 
+export default NavBar; 

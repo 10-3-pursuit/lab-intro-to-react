@@ -25,3 +25,7 @@ body,
 .yellow-border {
   border: yellow solid 1px;
 }
+
+.orange-border {
+  border: solid orange 5px; 
+}

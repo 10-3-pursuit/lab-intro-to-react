@@ -3,12 +3,12 @@ import "./index.css";
 import UserProfile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
-import Navbar from "./Components/NavBar";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
     <div>
-    <Navbar />
+    <NavBar />
     <UserProfile />
     <Posts />
     <Contacts/>
