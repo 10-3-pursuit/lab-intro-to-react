@@ -1,6 +1,6 @@
 function Post() {
     return (
-        <div>
+        <div className="yellow-border">
             <p>Title</p>
             <p>Lorem Ipsum</p>
         </div>

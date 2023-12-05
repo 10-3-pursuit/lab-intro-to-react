@@ -1,6 +1,6 @@
 function ContactUserCard() {
     return (
-        <div>
+        <div className="yellow-border">
             <img src="" alt="Contact User Card Profile Card" />
             <p>Jordan Walke</p>
             <p>React Creator</p>

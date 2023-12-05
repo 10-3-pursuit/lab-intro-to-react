@@ -21,3 +21,7 @@ body,
 .green-border {
   border: green solid 5px;
 }
+
+.yellow-border {
+  border: yellow solid 1px;
+}
