@@ -9,3 +9,53 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.boxes {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.nav {
+  text-align: right;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+}
+
+.user-card {
+  display: flex;
+  margin: 50px;
+  border: 2px solid black;
+  text-align: left;
+}
+
+.user-profile {
+  margin-bottom: 20px;
+}
+
+.single-post {
+  border: 2px solid black;
+  margin: 50px;
+}
+
+.posts {
+  border: 2px solid black;
+  margin: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  height: 665px;
+}
+
+.contacts {
+  border: 2px solid black;
+  margin: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+img {
+  padding-right: 20px;
+}
