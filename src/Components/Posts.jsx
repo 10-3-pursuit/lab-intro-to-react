@@ -1,14 +1,13 @@
 import Post from "./Post"
+import "../Components/Posts.css"
 
 const Posts = () => {
   return (
-    <section>
+    <section className="posts">
     <h1>Posts</h1>
-        <section>
             <Post/>
             <Post/>
             <Post/>
-        </section>
     </section>
   )
 }

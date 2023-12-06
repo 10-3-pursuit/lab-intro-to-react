@@ -1,5 +1,6 @@
 import profilePic from '../images/profile.png'
 
+
 function UserProfile() {
     return (
     <section>
