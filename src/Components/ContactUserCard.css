@@ -1,0 +1,12 @@
+li{
+    list-style: none;
+}
+li .User-Profile{
+    border: 1px solid black;
+    display: flex;
+    width: 90%;
+    margin-bottom: 20px;
+}
+li .User-Profile img{
+    
+}

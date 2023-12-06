@@ -5,7 +5,19 @@ body {
 
 html,
 body,
-#root {
+#root{
   height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.App{
+  width: 100%;
+}
+
+.middle-body{
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
