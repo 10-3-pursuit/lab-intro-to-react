@@ -1,17 +1,15 @@
 import profile from '../images/profile.png';
 
-function ContactUserCard({ name, email, phone }) {
+const ContactUserCard = () => {
   return (
-    <>
-      <div className="user-card" style={{ backgroundColor: 'white', border: '3px solid black' }}>
-        <img src={profile} alt="No" />
-        <div>
-          <h3>{name}</h3>
-          <h4>React Creator</h4>
-          <p>Lorem Ipsum</p>
-        </div>
-      </div>
-    </>
+    <div className="user-card">
+      <img src={profile} alt="No" />
+      <section className="card-info">
+        <h3>Jordan Walker</h3>
+        <p>React Creator</p>
+        <p>Lorem Ipsum</p>
+      </section>
+    </div>
   );
 }
 
