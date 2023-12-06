@@ -8,7 +8,6 @@ export default function Contacts(){
             <li><User /></li>
             <li><User /></li>
             <li><User /></li>
-            <li><User /></li>
         </ul>
     </div>
    )
