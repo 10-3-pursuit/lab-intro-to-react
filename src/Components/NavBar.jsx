@@ -1,9 +1,16 @@
-import React from "react";
+import "../Components/NavBar.css";
 
 const NavBar = () => {
   return (
-    <div style={{ border: "2px solid aqua", textAlign: "right" }}>
-      <nav style={{ backgroundColor: "aqua" }} className="nav">
+    <div
+      className="container"
+      style={{
+        backgroundColor: "aqua",
+        textAlign: "right",
+        marginBottom: "20px",
+      }}
+    >
+      <nav style={{ padding: "10px 5px" }} className="nav">
         <button>
           <a style={{ textDecoration: "none" }} href="#">
             What is Pursuit?

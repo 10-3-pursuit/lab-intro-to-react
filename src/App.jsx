@@ -12,6 +12,7 @@ function App() {
       <UserProfile />
       <br />
       <Posts />
+      <br />
       <Contacts />
     </>
   );
