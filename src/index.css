@@ -16,20 +16,8 @@ main{
   height: 100%;
   width: 100%;
 }
-
-section {
-  display: grid;
-  width: 80%;
-  row-gap: 100px;
-}
-
 ul{
   list-style: none;
-}
-.nav {
-  text-align: right;
-  background-color: blue;
-  height: 50px;
 }
 
 .list {
