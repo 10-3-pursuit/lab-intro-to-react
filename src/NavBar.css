@@ -1,0 +1,11 @@
+div ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+div ul button{
+    width: 125px;
+}
