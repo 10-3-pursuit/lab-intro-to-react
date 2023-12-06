@@ -29,11 +29,19 @@ button {
   display: flex;
   margin: 50px;
   border: 2px solid black;
-  text-align: left;
+  text-align: center;
 }
 
 .user-profile {
   margin-bottom: 20px;
+}
+
+.user-profile-card {
+  display: flex;
+  margin: 50px;
+  border: 2px solid black;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 .single-post {
@@ -46,7 +54,7 @@ button {
   margin: 50px;
   padding-bottom: 20px;
   text-align: center;
-  height: 665px;
+  height: 595px;
 }
 
 .contacts {
