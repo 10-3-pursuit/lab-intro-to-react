@@ -1,0 +1,59 @@
+
+.userProfile {
+padding: 20px 20px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: lightblue;
+    height: 50px;
+    margin-bottom: 20px
+}
+
+
+.navbar button {
+    margin-right: 10px;
+    margin: 10px 10px;
+    
+}
+
+.userProfile {
+    display: flex;
+    align-items: center; 
+    border: 2px solid black;
+    margin-bottom: 20px
+}
+
+.userProfile img {
+    margin-right: 10px; 
+    border: 2px solid black;
+    
+}
+
+.text-container {
+    flex-grow: 1; 
+}
+
+.posts {
+    border: 2px solid black;
+    margin: 20px 40px 20px 40px;
+}
+.posts h2 {
+    display: block;
+    text-align: center;
+}
+
+.post {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 15px;
+}
+
+.contacts {
+    border: 2px solid black;
+}
