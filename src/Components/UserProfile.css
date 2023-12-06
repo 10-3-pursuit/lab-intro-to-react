@@ -1,6 +1,6 @@
 .user-profile {
     border: 1px solid black;
-    padding: 5% 5% 5% 5%;
+    /* padding: 5% 5% 5% 5%; */
     display: flex;
     justify-content: flex-start; /* makes content to the left must use display flex*/
     text-align: left;
