@@ -1,0 +1,14 @@
+.user-profile {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start; /* makes content to the left must use display flex*/
+    text-align: left;
+}
+img {
+    padding-right: 5%;
+}
+
+.user-profile-div
+ {
+    padding: 5% 5% 5% 5%;
+}

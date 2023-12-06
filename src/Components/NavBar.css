@@ -1,0 +1,8 @@
+nav {
+    padding: 10px 10px;
+    background-color: rgb(155, 225, 255);
+    box-sizing: border-box;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}

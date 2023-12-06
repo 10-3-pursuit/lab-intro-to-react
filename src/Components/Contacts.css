@@ -1,0 +1,12 @@
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    border: 1px solid black;
+}
+.contact-user-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5% 5% 5% 5%;
+}
