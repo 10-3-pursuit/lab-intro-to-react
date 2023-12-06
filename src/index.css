@@ -9,3 +9,50 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.navbar a {
+  padding: 20px;
+}
+
+.userprofile {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  border: 3px solid black;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto; 
+  grid-gap: 10px; 
+}
+
+.contacts-heading {
+  grid-column: 1 / -1; 
+  text-align: center;
+}
+
+.contactcard {
+  border: 3px solid black;
+}
+
+.wallpost {
+  border: 3px solid black;
+}
+
+.post {
+  border-bottom: 3px dotted black;
+}
+
+.entirewall h2 {
+  display: flex;
+  justify-content: center;
+}
+
