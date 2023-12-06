@@ -8,12 +8,18 @@ import Contacts from "./Components/Contacts";
 
 function App() {
   return (
-  <main>
-  <NavBar/>
+    <body>
+    <header>
+    <NavBar/>
   <UserProfile/>
-  <Contacts/>
+  </header>
+  <main>
+  
   <Posts/>
+  <Contacts/>
+  
   </main>
+  </body>
   );
 }
 

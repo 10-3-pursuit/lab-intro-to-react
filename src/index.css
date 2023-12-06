@@ -24,7 +24,13 @@ body,
   margin:auto;
 }
 
-section {
+
+h2 {
+  /* font size is wonky so to fix use the following */
+  font-size: 1em;
+}
+
+main {
   border: 1px solid black;
   display: grid;
   grid-template-columns: 2fr 1fr;

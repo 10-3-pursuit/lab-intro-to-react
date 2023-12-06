@@ -2,7 +2,7 @@ import "../Components/NavBar.css"
 
 const NavBar = () => {
   return (
-    <header>
+    <header className="nav-bar">
     <nav>
         <button><a href="#"/>What is Pursuit?</button>
         <button><a href="#"/>Create an account</button>
