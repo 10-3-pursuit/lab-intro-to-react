@@ -1,11 +1,51 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
+main{
+  display: grid;
+  grid-template-rows: repeat(2 2fr);
 }
 
-html,
-body,
+.nav-bar {
+  text-align: right;
+  
+}
+
+.user-pro {
+  display: flex;
+}
+
 #root {
   height: 100%;
   width: 100%;
 }
+ul{
+  list-style: none;
+}
+
+.list {
+  text-align: center;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.posts {
+  border: 2px black;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.post{
+  border: 1px solid black;
+  margin: 30px;
+}
+
+.user-card {
+  border: 1px solid black;
+  margin: 30px;
+  display: flex;
+  height: 150px;
+}
+.card-info {
+  margin: 20px;
+}
+
