@@ -1,8 +1,9 @@
-import user from "../Components/UserProfile"
+import User from "../Components/UserProfile"
 
-export default function contactUser(){
+export default function ContactUser(){
     return (
-        <div className="user-Contact">{user}</div>
+        <div className="user-Contact"><User /></div>
     )
 }
 
+ContactUser;

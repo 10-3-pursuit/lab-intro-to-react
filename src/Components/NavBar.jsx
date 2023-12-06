@@ -1,4 +1,4 @@
-export default function navBar(){
+export default function NavBar(){
    return (
     <nav>
     <button className="question">What is Pursuit?</button>
@@ -8,4 +8,4 @@ export default function navBar(){
    );
 }
 
-navBar; 
+NavBar; 

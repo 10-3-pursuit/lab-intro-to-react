@@ -1,13 +1,17 @@
-import user from "../Components/ContactUserCard"
+import User from "../Components/ContactUserCard"
 
-export default function contacts(){
+export default function Contacts(){
    return (
     <div className = "userContact">
-        <ul>{user}</ul>
-        <ul>{user}</ul>
-        <ul>{user}</ul>
+        <ul>
+            <li><User /></li>
+            <li><User /></li>
+            <li><User /></li>
+            <li><User /></li>
+            <li><User /></li>
+        </ul>
     </div>
    )
 }
 
-contacts;
+Contacts;
