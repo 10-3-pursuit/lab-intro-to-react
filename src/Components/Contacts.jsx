@@ -1,21 +1,14 @@
-import profilePic from "./images/profile.png"
+// import profilePic from "./images/profile.png"
+
+import ContactUserCard from "./ContactUserCard";
 
 function Contacts() {
-    return (
-    <div>
-        <p>Contacts</p>
-        <ul>
-          <img src={profilePic} alt="" />
-          <li>ContactUserCard</li>
-          <img src={profilePic} alt="" />
-          <li>ContactUserCard</li>
-          <img src={profilePic} alt="" />
-          <li>ContactUserCard</li>
-          <img src={profilePic} alt="" />
-          <li>ConstactUserCard</li>
-        </ul>
-        </div>
-    );
+    return (<>
+    <h2>Contacts</h2>
+    <ContactUserCard/>
+    </>)
+
+    
   }
 
 export default Contacts;
