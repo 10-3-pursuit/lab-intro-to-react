@@ -26,4 +26,6 @@ body,
 
 section {
   border: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }

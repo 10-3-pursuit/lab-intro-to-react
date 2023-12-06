@@ -1,9 +1,10 @@
 import ContactUserCard from "./ContactUserCard"
+import "../Components/Contacts.css"
 
 
 const Contacts = () => {
   return (
-    <section>
+    <section className="contacts">
         <ContactUserCard/>
     </section>
   )

@@ -8,12 +8,13 @@ import Contacts from "./Components/Contacts";
 
 function App() {
   return (
-  <section>
+  <main>
   <NavBar/>
   <UserProfile/>
   <Contacts/>
   <Posts/>
-  </section>);
+  </main>
+  );
 }
 
 export default App;
