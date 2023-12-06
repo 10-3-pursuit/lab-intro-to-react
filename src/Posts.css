@@ -1,0 +1,23 @@
+.posts {
+    text-align: center; 
+    border: 1px solid black;
+    padding: 20px; 
+    width: 930px; 
+    margin: 40px 50px; 
+  }
+  
+  .posts h2 {
+    margin-top: -10px; 
+  }
+  
+  .posts ul {
+    display: block;
+    padding: 0; 
+    margin-left: 10px;
+    width: 890px;
+  }
+  
+  .posts ul li {
+      margin-bottom: 7px;
+  }
+  
