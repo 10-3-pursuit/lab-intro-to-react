@@ -9,17 +9,18 @@ import Contacts from "./Components/Contacts";
 function App() {
   return (
     <body>
-    <header>
-    <NavBar/>
-  <UserProfile/>
-  </header>
-  <main>
-  
-  <Posts/>
-  <Contacts/>
-  
-  </main>
-  </body>
+      <header>
+      <NavBar/>
+      </header>
+      <main>
+      <div className="user-profile-div">
+      <UserProfile/>
+      <br></br>
+      <Posts/>
+      </div>
+      <Contacts/>
+      </main>
+    </body>
   );
 }
 

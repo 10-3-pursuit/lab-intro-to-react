@@ -4,8 +4,7 @@
     border: 1px solid black;
     padding: 5% 5% 5% 5%;
 }
-
-/* no ul tags in jsx so not sure why this works */
+/* ul tags in Post.jsx not in Posts.jsx */
 ul {
     list-style: none;
     border: 1px solid black;

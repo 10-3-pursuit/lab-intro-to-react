@@ -1,7 +1,7 @@
 nav {
     padding: 10px 10px;
     background-color: rgb(155, 225, 255);
-    min-width: 100%;
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-end; /* Align items to the right */
 }
