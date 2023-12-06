@@ -1,0 +1,25 @@
+.Post-Container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 20px;
+    height: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.post-list{
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    padding-inline-start: 0px;
+}
+
+.post-header{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}

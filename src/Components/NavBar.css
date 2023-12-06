@@ -1,0 +1,12 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    background: lightblue;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+}
+.Navbar button{
+    max-height: 20px;
+    margin: 0px 10px;
+}

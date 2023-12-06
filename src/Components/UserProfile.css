@@ -1,0 +1,33 @@
+.User-info{
+    width: 70%;
+    
+}
+
+.User-info .User-Profile{
+    border: 1px solid black;
+    max-width: 80%;
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    height: 20%;
+}
+
+img{
+    max-height: 100px;
+}
+
+.info{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.name{
+    font-weight: bold;
+}
+.role{
+    font-weight: bold;
+    font-size: 14px
+}
+
+.text{
+    font-size: 12px;
+}
