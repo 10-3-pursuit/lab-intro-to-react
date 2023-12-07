@@ -1,13 +1,14 @@
 import Post from "./Post";
 
-function Posts () {
+const Posts = () => {
     return (
-    <>
-    <div>Posts</div>
-    <Post/>
-    <Post/>
-    <Post/>
-    </>)
-  }
+     <>
+     <div>Posts</div>
+     <Post/>
+     <Post/>
+     <Post/>
+     </>
+    )
+}
 
-export default Posts;
+export default Posts
