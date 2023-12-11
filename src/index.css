@@ -21,3 +21,18 @@ header {
 button {
   margin: 7px;
 }
+
+img {
+  border: 2px solid lightgray;
+}
+
+.user-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+section {
+  border: 1px solid black;
+  padding: 10px 10px 100px 10px;
+  margin: 5%;
+}
