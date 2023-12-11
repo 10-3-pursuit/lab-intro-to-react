@@ -36,3 +36,11 @@ section {
   padding: 10px 10px 100px 10px;
   margin: 5%;
 }
+
+li {
+  list-style: none;
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px 30px 20px 0px;
+
+}
