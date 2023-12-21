@@ -1,11 +1,29 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
+  padding: 0;
 }
 
-html,
-body,
-#root {
-  height: 100%;
-  width: 100%;
+.app-container {
+  display: flex;
+  flex-direction: column;
 }
+
+.content-container {
+  display: flex;
+}
+
+.left-content {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.profile-picture {
+  height: 200px;
+  width: 200px;
+}
+
