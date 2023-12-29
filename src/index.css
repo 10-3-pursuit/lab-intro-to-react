@@ -1,11 +1,30 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
+li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-html,
-body,
-#root {
-  height: 100%;
-  width: 100%;
+.new-Contact {
+  margin: 0;
+  display:grid;
+  grid-template-columns: min-content;
+}
+
+.aside {
+  border: 5px solid black;
+}
+
+.filler {
+  display: block;
+  padding: auto;
+  margin: auto;
+  text-align: auto;
+}
+
+.btn-remove {
+  display:inline-block;
+ 
+}
+
+.btn-create {
+  display:inline-block
 }
